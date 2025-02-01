@@ -1,0 +1,12 @@
+{
+  "name": "abinesh-text",
+  "version": "1.0.3",
+  "description": "A custom html 3d text tag",
+  "main": "abinesh.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Abinesh",
+  "license": "MIT"
+}
