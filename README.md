@@ -50,7 +50,7 @@ If you have the package locally, you can import it directly:
 <abinesh-text
     text="Custom 3D Text"
     size="60px"
-    color="gold"
+    textColor="gold"
     font-family="Arial"
     font-weight="bold"
     text-transform="uppercase"
@@ -68,7 +68,7 @@ import "abinesh-text";
 const App = () => {
   return (
     <div>
-      <abinesh-text text="Hello from React!" size="50px" color="purple"></abinesh-text>
+      <abinesh-text text="Hello from React!" size="50px" textColor="purple"></abinesh-text>
     </div>
   );
 };
@@ -83,7 +83,7 @@ You can customize the text using the following attributes:
 |---------------|------------------------------------------------|--------------|
 | `text`        | The text content inside the component          | `3D Abinesh!` |
 | `size`        | Font size of the text                         | `50px`       |
-| `color`       | Text color                                    | `white`      |
+| `textColor`       | Text color                                    | `white`      |
 | `font-family` | Font family for the text                      | `sans-serif` |
 | `font-weight` | Font weight (e.g., normal, bold)              | `bold`       |
 | `text-transform` | Transforms text (uppercase, lowercase, capitalize) | `uppercase`  |
